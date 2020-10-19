@@ -8,4 +8,4 @@ def rec(dir):
             for i in range(len(dirnames)):
                 rec(dir + '\\' + dirnames[i])
         return 0
-rec("test")
+rec("dz_3")
