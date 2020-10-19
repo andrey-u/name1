@@ -7,5 +7,5 @@ def rec(dir):
         if len(dirnames) != 0:
             for i in range(len(dirnames)):
                 rec(dir + '\\' + dirnames[i])
-        return 0
+        return 34
 rec("dz_3")
